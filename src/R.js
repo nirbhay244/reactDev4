@@ -3,9 +3,9 @@ import S from './S'
 
 export default function R() {
   return (
-    <div>
+    <React.Fragment>
       <h1>R component</h1>
       <S />
-    </div>
+    </React.Fragment>
   )
 }
